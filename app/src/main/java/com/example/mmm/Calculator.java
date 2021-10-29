@@ -18,10 +18,7 @@ public class Calculator extends AppCompatActivity {
         setContentView(R.layout.activity_calculator);
 
 
-        TextView t =  findViewById(R.id.calc_result_textView);
-        t.setText("result");
-
-        Button run = (Button) findViewById(R.id.calculate_button);
+        Button run = findViewById(R.id.calculate_button);
         run.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,8 +29,8 @@ public class Calculator extends AppCompatActivity {
                 num1 = getNumberFromView(editText);
                 num2 = getNumberFromView(editText2);
                 result = calculate(num1, num2, operator);
-                TextView t = ((TextView) findViewById(R.id.calc_result_textView));
-                t.setText(result);
+                TextView t =  findViewById(R.id.calc_result_textView);
+                t.setText(Integer.toString(result));
             }
         });
 
