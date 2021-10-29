@@ -3,18 +3,15 @@ package com.example.mmm;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class FirstActivity extends AppCompatActivity {
     static final String CALCULATOR_ID = "Calculator";
     static final String LECTURE_6_ID = "Lecture_6";
 
@@ -29,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         list.add(CALCULATOR_ID);
         list.add(LECTURE_6_ID);
-        list.add("Rap");
-        list.add("Basketball");
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, list);
         application_chooser.setAdapter(adapter);
         application_chooser.getAdapter();
@@ -44,15 +39,15 @@ public class MainActivity extends AppCompatActivity {
                 Spinner application_chooser = (Spinner) findViewById(R.id.application_chooser_spinner);
                 Intent intent;
                 switch (application_chooser.getSelectedItem().toString()) {
-                    case CALCULATOR_ID:
-                        intent = new Intent(MainActivity.this, Calculator.class);
-                        startActivity(intent);
                     case LECTURE_6_ID:
-                        intent = new Intent(MainActivity.this, Lecture6.class);
+                        intent = new Intent(FirstActivity.this, Lecture6.class);
                         startActivity(intent);
+                        break;
+                    case CALCULATOR_ID:
                     default:
-                        intent = new Intent(MainActivity.this, Calculator.class);
+                        intent = new Intent(FirstActivity.this, Calculator.class);
                         startActivity(intent);
+                        break;
                 }
             }
         });

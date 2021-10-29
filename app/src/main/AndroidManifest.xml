@@ -29,7 +29,7 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.MMM.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".FirstActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
