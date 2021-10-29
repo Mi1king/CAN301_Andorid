@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class Calculator extends AppCompatActivity {
 
@@ -17,7 +20,18 @@ public class Calculator extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
 
+        //set operators as adapter of spinner
+        final Spinner s = findViewById(R.id.operator_chooser);
+        ArrayList<String> list = new ArrayList<>();
+        list.add("+");
+        list.add("-");
+        list.add("*");
+        list.add("/");
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.activity_calculator, list);
+        s.setAdapter(adapter);
+        s.getAdapter();
 
+        //add listener to calculation button
         Button run = findViewById(R.id.calculate_button);
         run.setOnClickListener(new View.OnClickListener() {
             @Override

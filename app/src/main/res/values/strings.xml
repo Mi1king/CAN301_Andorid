@@ -16,6 +16,8 @@
     <string name="input1">Input1:</string>
     <string name="result">Result:</string>
     <string name="run">Run</string>
+    <string name="input2">Input2</string>
+    <string name="go_to">Go to</string>
     <string-array name="hobbies">
         <item>A</item>
         <item>B</item>
@@ -27,5 +29,11 @@
         <item>-</item>
         <item>*</item>
         <item>/</item>
+    </string-array>
+    <string-array name="applications">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
     </string-array>
 </resources>
