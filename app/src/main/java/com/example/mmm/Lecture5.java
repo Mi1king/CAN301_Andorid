@@ -18,7 +18,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.mmm.databinding.ActivityMain2Binding;
 
-public class MainActivity2 extends AppCompatActivity {
+public class Lecture5 extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMain2Binding binding;

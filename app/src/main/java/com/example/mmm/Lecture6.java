@@ -58,7 +58,7 @@ public class Lecture6 extends AppCompatActivity {
     }
 
     private void show() {
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, Lecture5.class);
         intent.putExtra("je", "IntentFromActivity1");
         startActivity(intent);
         this.finish();

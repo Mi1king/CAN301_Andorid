@@ -24,7 +24,7 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".MainActivity2"
+            android:name=".Lecture5"
             android:exported="true"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.MMM.NoActionBar" />
