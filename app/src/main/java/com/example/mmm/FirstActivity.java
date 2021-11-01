@@ -14,6 +14,7 @@ import java.util.ArrayList;
 public class FirstActivity extends AppCompatActivity {
     static final String CALCULATOR_ID = "Calculator";
     static final String LECTURE_6_ID = "Lecture_6";
+    static final String LECTURE_7_ID = "Lecture_7";
 
 
     @Override
@@ -26,6 +27,7 @@ public class FirstActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         list.add(CALCULATOR_ID);
         list.add(LECTURE_6_ID);
+        list.add(LECTURE_7_ID);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, list);
         application_chooser.setAdapter(adapter);
         application_chooser.getAdapter();
@@ -41,6 +43,10 @@ public class FirstActivity extends AppCompatActivity {
                 switch (application_chooser.getSelectedItem().toString()) {
                     case LECTURE_6_ID:
                         intent = new Intent(FirstActivity.this, Lecture6.class);
+                        startActivity(intent);
+                        break;
+                    case LECTURE_7_ID:
+                        intent = new Intent(FirstActivity.this, Lecture7.class);
                         startActivity(intent);
                         break;
                     case CALCULATOR_ID:

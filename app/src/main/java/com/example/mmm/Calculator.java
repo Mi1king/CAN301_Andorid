@@ -20,16 +20,6 @@ public class Calculator extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
 
-        //set operators as adapter of spinner
-//        Spinner s = findViewById(R.id.operator_chooser);
-//        ArrayList<String> list = new ArrayList<>();
-//        list.add("+");
-//        list.add("-");
-//        list.add("*");
-//        list.add("/");
-//        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.activity_calculator, list);
-//        s.setAdapter(adapter);
-//        s.getAdapter();
 
         //add listener to calculation button
         Button run = findViewById(R.id.calculate_button);
@@ -47,6 +37,17 @@ public class Calculator extends AppCompatActivity {
                 t.setText(Integer.toString(result));
             }
         });
+
+        //set operators as adapter of spinner
+//        final Spinner s = findViewById(R.id.operator_chooser);
+//        ArrayList<String> list = new ArrayList<>();
+//        list.add("+");
+//        list.add("-");
+//        list.add("*");
+//        list.add("/");
+//        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.activity_calculator, list);
+//        s.setAdapter(adapter);
+//        s.getAdapter();
 
 
     }

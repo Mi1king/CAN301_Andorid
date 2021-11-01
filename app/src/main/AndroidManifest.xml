@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MMM">
         <activity
+            android:name=".Lecture8"
+            android:exported="true" />
+        <activity
+            android:name=".Lecture7"
+            android:exported="true" />
+        <activity
             android:name=".Lecture6"
             android:exported="true" />
         <activity
