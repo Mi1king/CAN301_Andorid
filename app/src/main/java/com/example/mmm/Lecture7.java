@@ -30,7 +30,6 @@ public class Lecture7 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lecture7);
 
-
         Button lecture7_method1_button = (Button) findViewById(R.id.lecture7_method1_button);
         lecture7_method1_button.setText(METHOD_1);
         lecture7_method1_button.setOnClickListener(new View.OnClickListener() {

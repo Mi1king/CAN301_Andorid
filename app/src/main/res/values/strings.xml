@@ -18,6 +18,9 @@
     <string name="run">Run</string>
     <string name="input2">Input2</string>
     <string name="go_to">Go to</string>
+    <string name="monitoring_is_off">Monitoring is off</string>
+    <string name="zzz">Zzz</string>
+    <string name="monitoring">Monitoring</string>
     <string-array name="hobbies">
         <item>A</item>
         <item>B</item>

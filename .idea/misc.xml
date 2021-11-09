@@ -4,13 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_calculator.xml" value="0.22" />
+        <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_lecture10.xml" value="0.36614583333333334" />
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_lecture5.xml" value="0.16" />
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_lecture6.xml" value="0.264" />
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_lecture7.xml" value="0.2046875" />
+        <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_lecture8.xml" value="0.36614583333333334" />
+        <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_lecture9.xml" value="0.36614583333333334" />
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_main.xml" value="0.254981884057971" />
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/activity_main2.xml" value="0.2046875" />
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/content_main.xml" value="0.2046875" />
         <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/layout/firstui.xml" value="0.25364583333333335" />
+        <entry key="..\:/ANDORIDAPP/MMM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.38229166666666664" />
       </map>
     </option>
   </component>
